@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+
+
+
+/* create the legend background */
+.legend { list-style: none; background-color: lightgrey;}
+
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+
+/* add colors for magnitude */
+.legend .fiveormore { background-color: #800026; }
+.legend .fourtofive { background-color:#BD0026; }
+.legend .threetofour { background-color:#E31A1C; }
+.legend .twotothree { background-color: #FC4E2A; }
+.legend .onetotwo { background-color: #FD8D3C; }
+.legend .lessthanone { background-color: #FEB24C; }
